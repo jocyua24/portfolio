@@ -30,5 +30,5 @@ function resetElementStyles(element) {
 
 function clickLink(element)
 {
-    window.location.pathname = `./${element.parentElement.id}.html`;
+    window.location.pathname = `./portfolio/${element.parentElement.id}.html`;
 }
