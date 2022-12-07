@@ -30,7 +30,5 @@ function resetElementStyles(element) {
 
 function clickLink(element)
 {
-    console.log("a");
-    // change page to digital.html
-    window.location.pathname = `/${element.parentElement.id}.html`;
+    window.location.pathname = `./${element.parentElement.id}.html`;
 }
