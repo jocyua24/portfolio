@@ -142,3 +142,7 @@ svg * {
     transform-origin: center;
     margin: 0 auto;
 }
+
+g{
+    pointer-events: bounding-box;
+}
